@@ -1,7 +1,11 @@
-import os, sys
+import sys
+
+# TODO
+# system path
+sys.path.insert(0, '..')
 import tensorflow as tf
-from tensorflow_tutorials.mnist import tensorflowvisu
-from tensorflow_tutorials.mnist import mnistdata
+import tensorflowvisu
+import mnistdata
 
 tf.set_random_seed(0)
 
