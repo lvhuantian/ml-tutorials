@@ -7,6 +7,8 @@ import sys
 sys.path.insert(0, '..')
 import gluonbook as gb
 
+# TODO check macOS cpu执行报错
+
 (corpus_indices, char_to_idx, idx_to_char,
  vocab_size) = gb.load_data_jay_lyrics()
 
