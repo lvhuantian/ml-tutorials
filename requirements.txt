@@ -51,7 +51,7 @@ datashape==0.5.4
 decorator==4.2.1
 diskcache==3.0.6
 distributed==1.20.2
-Django==1.11.4
+Django==1.11.29
 docutils==0.14
 entrypoints==0.2.3
 et-xmlfile==1.0.1
